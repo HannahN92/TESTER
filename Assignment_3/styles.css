@@ -1,0 +1,139 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(248, 226, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin-bottom: 50%;
+    
+}
+
+.body {
+    background-color: whitesmoke;
+}
+
+.logo {
+    font-size: 32px;
+    color: blueviolet;
+    text-decoration: white;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #4955fa;
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin:5% auto;
+    padding:5px;
+}
+
+.title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 0%;
+
+}
+
+.welcome-content {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.content {
+    flex:1;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.image {
+    flex:1;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.image img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.image:hover img{
+    transform: scale(1.1);
+
+}
+
+.content p{
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.readmore{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4955fa;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.readmore:hover{
+    background-color: rgb(113, 34, 241);
+
+}
+
+@media screen and (max-width: 768px) {
+    .welcome-content{
+        flex-direction: column;
+    }
+    .image, .content{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .title{
+      font-size: 38px;
+        margin-bottom: 20px;
+    }
+}
