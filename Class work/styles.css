@@ -1,0 +1,88 @@
+body, h1, h2, p{
+margin:0;
+padding:0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: bisque;
+    color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lucida grande';
+}
+
+.article-container {
+    background-color: bisque;
+    font-size: 18px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .article-container {
+    border: 3px solid purple;
+  }
+
+  .highlight {
+    background-color: yellow;
+    font-weight: bold;
+  }
+  
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.property-section:first-child{
+    margin-bottom: 20px;
+}
+
+.property-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px
+}
+
+.font-family-example::after{
+    content: "(italic)";
+    font-family:'Gill Sans';
+    color: purple
+
+}
+
+font-size-example {
+    font-size: 20px
+    font-style: italic;
+}
+
+font-weight-example::after {
+    font-weight: bold;
+    color: aqua
+    content: "(italic)";
+}
+
+.color-example {
+    color:blueviolet;
+}
+
+.spacing-example {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.alignment-example {
+    text-align: center;
+    text-decoration: wavy;  
+}
+
+.h2:hover {
+    color: purple;
+}
+
+.blockquote::before {
+    content: "\201C";
+    /* inserts a quotation mark before a blockquote */
+}

@@ -1,0 +1,24 @@
+Define HTML and explain its role in web development. (5 marks)
+
+HTML stands for Hyper Text Markup Language and its role in web development is to create the basic structure of and content of the webpage.
+
+Describe the box model in CSS and how it influences the layout of elements on a webpage. (5 marks)
+
+The box model in CSS describes how the design and layout works on a webpage. Each element on a page is a box, and the box model details the size and spacing of these boxes. It covers the content, padding, border and margin.
+
+Explain the difference between inline and block-level elements in HTML and provide examples
+of each. (5 marks)
+
+Inline elements do not start on a new line and only take up as much width as necessary, for example <a>, <img> and <em>.
+
+Block level elements start on a new line and take up the full width, for example <div>, <p> and <header>.
+
+
+What is the purpose of CSS media queries? How are they used to implement responsive design? (5 marks)
+
+CSS media queries are used to allow content to adapt to different conditions, they can be used to check the screen resolution or width and height of a device, for example. They are a key component of responsive web design and help to ensure web pages look good on all devices.
+
+Describe the importance of semantic HTML elements and provide at least three examples of such
+elements. (5 marks)
+
+Semantic HTML elements clearly describe their meaning to both the browser and the developer. They make the web page more accessible and improve its SEO. Examples of these are <header>, <article> and <footer>. 
