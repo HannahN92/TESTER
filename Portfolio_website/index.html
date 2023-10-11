@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/custom.css">
+</head>
+<body>
+
+    <header class ="pb-5 overflow-hidden bg-green">
+        <div class ="container">
+            <div class="row py-5">
+                <div class="col-sm-6 text-lg-start">
+                    <a href="#" class = "navbar-brand text-white fs-1">
+                        HN Design Solutions <i class = "fa fa-heart"></i>
+
+                    </a>
+                </div>
+                <div class="col-sm-6 d-none d-md-flex text-white align-items-center nav-icons justify-content-end">
+                    <p class="fw-bold mb-0">Useful links:</p>
+                    <a href ="#">
+                        <i class = "fa fa-house text-white px-2"></i>
+                    </a>
+                    <a href ="#">
+                        <i class = "fa fa-phone text-white px-2"></i>
+                    </a>
+                </div>
+            </div>
+            <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">About</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+                </li>
+              </ul>
+
+            <div class = "row">
+                <div class = "col-lg-6 text-white text-center text-lg-start">
+                    <h1 class = "display-1 fw-normal mt-5">Hello & Welcome!</h1>
+                    <p class = "my-4 lead fs-5">Need help with your web project or application? You've come to the right place! HN Design Solutions is here to help, click below to learn more.</p>
+                    <button type = "button" class = "btn fw-bold text-white mt-4 btn-header">Explore now!</button>
+                </div>
+                <div class = "col-lg-6 Laptop img d-none d-lg-flex justify-content-end gx-0 mt-5">
+                    <img src = "/Website-images/Laptop.jpg">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id = "sec-1" class = "py-5 bg-grey">
+        <div class = "container my-3">
+            <div class = "row">
+                <div class = "col-md-4 text-center sec-1-item mb-5">
+                     <span class = "d-flex align-items-center justify-content-center mx-auto text-white mb-4 circle-icon">
+                         <i class = "far fa-heart fs-3"></i>
+                     </span>
+                     <p class = "lead fw-bold">Quality</p>
+                     <p class = "fw-light mx-3 lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ducimus dolorum necessitatibus veritatis molestias exercitationem non earum quod dicta temporibus architecto.</p>
+                </div>
+                <div class = "col-md-4 text-center sec-1-item mb-5">
+                     <span class = "d-flex align-items-center justify-content-center mx-auto text-white mb-4 circle-icon">
+                         <i class = "far fa-flag fs-2"></i>
+                     </span>
+                     <p class = "lead fw-bold">Reliable</p>
+                     <p class = "fw-light mx-3 lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ducimus dolorum necessitatibus veritatis molestias exercitationem non earum quod dicta temporibus.</p>
+                 </div>
+                 <div class = "col-md-4 text-center sec-1-item mb-5">
+                     <span class = "d-flex align-items-center justify-content-center mx-auto text-white mb-4 circle-icon">
+                         <i class = "far fa-star fs-2"></i>
+                     </span>
+                     <p class = "lead fw-bold">Affordable</p>
+                     <p class = "fw-light mx-3 lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ducimus dolorum necessitatibus veritatis molestias exercitationem non earum quod dicta temporibus.</p>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sec-2" class ="py-5">
+        <div class="continer my-4">
+            <div class="row gx-lg-5">
+            <div class="col-lg-5 mb-5">
+                <img src="/Website-images/Testimonials.jpg" class="img-fluid">
+
+            </div>
+            <div class="col-lg-6">
+                <h3> Client testimonials! </h3>
+                <p class="text-muted fw-light lh-lg my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam amet, facere reiciendis iusto cum obcaecati eius nulla impedit quo maxime esse nesciunt modi tenetur illo non architecto iste doloremque ut.</p>
+                <button type="button" class="btn btn-green mt-2">Read more</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="sec-3" class="py-5 text-white bg-green">
+        <div class="container my-4">
+            <div class="col-12 text-center">
+                <h3 class="mb-4">Let's work together</h3>
+                <p class="lh-lg fw-light pt-2 w-75 mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam iste assumenda dolore eligendi ea maxime incidunt et vel laborum cupiditate consectetur autem, animi aspernatur cum minima mollitia asperiores quo impedit?</p>
+
+            </div>
+        </div>
+
+<section id = "sec-7" class = "py-5">
+<div class = "container my-4">
+<div class = "row gx-md-5">
+<div class = "col-md-6 my-3">
+<div class = "card text-center">
+    <img class = "card-img-top" src = "/Website-images/Website.jpg">
+    <div class = "card-body py-5">
+        <h4 class = "card-title">Portfolio</h4>
+        <p class = "card-text py-3 lh-lg text-muted fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis libero reprehenderit, enim iure debitis doloremque nulla perspiciatis natus impedit obcaecati molestias sunt voluptate sed ipsa?</p>
+        <a href = "#" class = "btn btn-green">Learn more</a>
+    </div>
+</div>
+</div>
+
+<div class = "col-md-6 my-3">
+<div class = "card text-center">
+    <img class = "card-img-top" src = "/Website-images/Money.jpg">
+    <div class = "card-body py-5">
+        <h4 class = "card-title">Pricing/Packages</h4>
+        <p class = "card-text py-3 lh-lg text-muted fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis libero reprehenderit, enim iure debitis doloremque nulla perspiciatis natus impedit obcaecati molestias sunt voluptate sed ipsa?</p>
+        <a href = "#" class = "btn btn-green">Learn more</a>
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+</div>
+</section>
+
+<footer class = "bg-green">
+<div class = "container">
+<div class = "row pt-4 text-white">
+<div class = "col-md-6 text-center text-md-start">
+<p><span class = "fw-bold">HN Designs &copy;</span> Copyright 2023</p>
+</div>
+<div class = "col-md-6 d-flex justify-content-center justify-content-md-end">
+<ul class = "d-flex p-0">
+    <li><i class = "fab fa-facebook-f px-2"></i></li>
+    <li><i class = "fab fa-twitter px-2"></i></li>
+    <li><i class = "fab fa-instagram px-2"></i></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+
+
+<script src = "bootstrap/js/bootstrap.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+    </section>
+
+    <!-- bootstrap css cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</body>
+</html>

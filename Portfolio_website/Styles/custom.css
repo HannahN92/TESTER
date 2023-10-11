@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lora:wght@500&display=swap");
+:root {
+  --green:#11c2aa;
+  --green-dark: #13bc7e;
+  --light-grey: #F1f4f6;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* misc stylings */
+ul li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.display-1 {
+  letter-spacing: 1px;
+}
+
+.bg-green {
+  background-color: var(--green) !important;
+}
+
+.btn {
+  border: 2px solid #fff;
+  border-radius: 1.5rem;
+  padding: 0.6rem 0;
+  width: 160px;
+}
+
+.bg-grey {
+  background-color: var(--light-grey);
+}
+
+.circle-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: var(--green);
+}
+
+.lh-lg {
+  line-height: 1.7 !important;
+}
+
+.btn-green {
+  background-color: var(--green);
+  color: #ffffff;
+  padding: 0.55rem 0;
+  width: 140px;
+}
+
+.btn-green-hover {
+  color: var(--green);
+  background-color: #306fe6;
+  border-color: var(--green);
+}
+
+/* header */
+header {
+  height: 100vh;
+}
+
+.navbar-brand .fa {
+  font-size: 1.3rem;
+}
+
+.nav-icons p {
+  font-size: 1rem;
+  margin-right: 0.6rem;
+}
+
+.btn-header:hover {
+  background-color: #fff;
+  color: var(--green) !important;
+}
+
+.webdesigners-img img {
+  width: 500px;
+}/*# sourceMappingURL=custom.css.map */

@@ -1,10 +1,10 @@
 Define HTML and explain its role in web development. (5 marks)
 
-HTML stands for Hyper Text Markup Language and its role in web development is to create the basic structure of and content of the webpage.
+HTML stands for Hyper Text Markup Language and its role in web development is to create the basic structure and content of the webpage.
 
 Describe the box model in CSS and how it influences the layout of elements on a webpage. (5 marks)
 
-The box model in CSS describes how the design and layout works on a webpage. Each element on a page is a box, and the box model details the size and spacing of these boxes. It covers the content, padding, border and margin.
+The box model in CSS describes how the design and layout works on a webpage. Each element on a page is considered a box, and the box model details the size and spacing of these boxes. For example,8 the content, padding, border and margin.
 
 Explain the difference between inline and block-level elements in HTML and provide examples
 of each. (5 marks)
