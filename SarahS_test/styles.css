@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.navbar{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li{
+    height: 50px;
+    padding: 50px;
+}
+
+.navbar a{
+    height: 50px;
+    padding: 0px 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:black ;
+}
+
+.navbar a:hover{
+    color: brown;
+}
+
+.navbar .logo{
+    justify-content: center;
+}
+
+.navbar .logo img{
+    width: 60%;
+}
+/* .logo img{
+    position: fixed;
+    height: 15px;
+    width: 20px;
+    background-color: blue;
+} */
+
+#hero{
+    width: 100%;
+    height: 300px;
+    background-image:url(8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-box{
+    width: 50%;
+    margin-top: 60px;
+}
+
+.hero-box .hero-heading{
+    color: white;
+    font-size: 50px;
+    line-height: 65px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .hero-box .hero-desc{
+    color: white;
+    font-size: 18px;
+    line-height: 17px;
+    padding: 10px 0;
+} */
+.hero-box .btn-box{
+    margin-top: 40px;
+}
+
+.hero-box .cta-btn {
+    background: transparent;
+    margin-right: 30px;
+    padding: 15px 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero-box .cta-btn:hover{
+    background:white;
+    color: black;
+}
+
+.about-info{
+    margin-top: 30px ;
+    justify-content: center;
+    text-align: center;
+}
+
+.row{
+    margin-top: 50px;
+    width: 80%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid: gap 50px 30px;
+    justify-content: center;
+}
+
+.row .right{
+    overflow: hidden;
+}
+.row .right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-left: 50px;
+}
+
+.row .left{
+    display: flex;
+    align-items: center;
+}
+
+.row .left .content{
+    padding-left: 100px;
+}
+.row .left .content p{
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 20px 20px 20px;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.container .box .pictures{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .pictures img{
+    width: 100%;
+    padding-bottom: 10px;
+    /* border-radius: 5px; */
+}
+
+ footer{
+    margin-top: 50px;
+    background: white;
+    height: auto;
+    width: 1oovw;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    color:brown;
+ } 
+
+ .footer-content{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+ }
+
+ .footer-content h3{
+    font-size:1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+ }
+
+ .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+ }
+
+ .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1 rem 0 3rem 0;
+ }
+
+ .socials li{
+    margin: 0 10px;
+ }
+
+ .socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+ }
+
+ .socials a:hover i{
+color: red;
+ }
+
+ .footer-bottom{
+    /* background: black; */
+    width: 1oovw;
+    padding: 20px 0;
+    text-align: center;
+    color: brown
+ }
+
+ .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+
+ .footer-bottom span{
+    text-transform: uppercase;
+    opacity: 1;
+    font-family:200;
+ }
