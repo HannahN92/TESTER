@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Javascript</title>
 </head>
 <body>
-    <div class="container">
+    
+        <div class="container">
         <div>
-            <button id="btnRed">Red</button>
-            <button id="btnBlue">Blue</button>
-            <button id="btnGreen">Green</button>
-            <button id="btnOrange">Orange</button>
-            <button id="btnPurple">Purple</button>
+            <button onclick="changeColor()">Change colour</button>
+        <p id="myText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aut repellat eaque, similique quis natus doloribus unde deserunt distinctio voluptate itaque architecto illo id laborum quisquam reiciendis facere aspernatur adipisci!</p>
         </div>
-        <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aut repellat eaque, similique quis natus doloribus unde deserunt distinctio voluptate itaque architecto illo id laborum quisquam reiciendis facere aspernatur adipisci!</P>
+        <script>
+        var colors = ["black", "blue", "purple", "red", "orange", "yellow", "green"];
+        var i = 0;
 
-    </div>
-    <script src="script.js"></script>
+        function changeColor() {
+        document.getElementById("myText").style.color = colors[i];
+        i = (i + 1) % colors.length; // Cycle through the array of colors
+}
+        </script>
 </body>
 </html>
