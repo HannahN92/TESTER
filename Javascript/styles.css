@@ -1,20 +1,15 @@
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 
 p {
     width: 40%;
     border: 5px solid rgb(250, 198, 54);
     padding: 10px;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 40px; 
 }
 
 button {
     padding: 10px 20px;
-    margin: 5px;
+    margin: 20px;
     color: black;
+    justify-content: center;
 }
