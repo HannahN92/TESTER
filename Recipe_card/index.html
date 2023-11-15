@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Recipe card</title>
+</head>
+<body>
+    <div class="recipe-card">
+        <img src="/BGIT-images/spag-bol1.jpg" alt="Recipe Image" class="recipe-image">
+        <h2 class="recipe-title">Spaghetti Bolognese</h2>
+        <p class="recipe-description"> An easy classic Spaghetti Bolognese recipe!</p>
+        <button class="view-details-button" onclick="openModal()">View Details</button>
+      </div>
+      
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close-button" onclick="closeModal()">×</span>
+          <h2 class="recipe-title">Spaghetti Bolognese</h2>
+          <img src="/BGIT-images/spag-bol.jpg" alt="Recipe Image" class="recipe-image">
+          <p class="recipe-description">An easy classic Spaghetti Bolognese recipe, made in 30mins!</p>
+          <h3 class="ingredients-title">Ingredients</h3>
+          <ul class="ingredients-list">
+            <li> Mince meat (beef or lamb), 400g</li>
+            <li> Spaghetti pasta, 400g</li>
+            <li> 1 onion</li>
+            <li> Chopped tomatoes, 1 tin</li>
+            <li> Garlic, 1 clove</li>
+            <li> Fresh parsley, handful </li>
+            <li> Italian mixed herbs</li>
+            <li> Olive oil, 1 tbsp</li>
+            <li> Salt</li>
+            <li> Pepper</li>
+          </ul>
+          <h3 class="instructions-title">Instructions</h3>
+          <ol class="instructions-list">
+            <li>Step 1 - Add 1 tbsp of olive oil to frying pan and put it on a low heat</li>
+            <li>Step 2 - Chop 1 onion and add it to the frying pan, saute the onions for 1-2 mins</li>
+            <li>Step 3 - In a separate pan, add water and put it on a high heat for it to boil</li>
+            <li>Step 4 - Add the mince meat to the fryinh pan, and put the heat on medium</li>
+          </ol>
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
