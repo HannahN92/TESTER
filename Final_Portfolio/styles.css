@@ -219,8 +219,8 @@ section {
     gap: 5rem;
     height: 70vh;
     margin-top: 1%;
-    background-color: yellow;
-    background-image: url(/BGIT-images/abstract.jpeg)
+   
+    /*background-image: url(/BGIT-images/abstract.jpeg)*/
 }
 
 .section__pic-container {
