@@ -1,0 +1,14 @@
+HTML - to build and structure the page
+CSS - to style
+JavaScript - to create the hamburger menu the toggle function, so when you click on the 3 lines (menu icon) it will open up the menu options on a mobile version.
+
+I chose to do a personal blog because I thought it would be good to get creative with what I could add on there. The fictional blog is titled ‘EMPWRD’ - a wellbeing & lifestyle blog for women. This has inspired a simple colour theme, grey, purple & white - which you will see across all the pages for consistency.
+
+For the homepage, I have included blog posts but they don’t link to anything currently but The idea is they would each open up as a separate page and would sit under the ‘blog’ page.
+
+I tried to keep it simple by only having 3 pages & a page to ‘sign up’ to get blog notifications.
+I also added a Twitter API - which I embedded using a website called Elfsight. I created an account, chose the twitter API style then generated an embed code for the website. I chose to link the feed to Stylist Magazine’s twitter account because they are a women’s magazine which aligns with my blog theme.
+
+The website is responsive and can be viewed on laptops/computers, tablets & mobile phones. I used media queries (within CSS) to ensure that each section of the website adapts to the device it’s being viewed on.
+
+The website has been deployed using Netlify.
