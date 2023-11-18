@@ -11,4 +11,4 @@ I also added a Twitter API - which I embedded using a website called Elfsight. I
 
 The website is responsive and can be viewed on laptops/computers, tablets & mobile phones. I used media queries (within CSS) to ensure that each section of the website adapts to the device it’s being viewed on.
 
-The website has been deployed using Netlify.
+The website has been deployed using Github pages.
